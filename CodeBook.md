@@ -44,3 +44,7 @@ Description of the variables in the tidydata.txt file
  - subjectNum represents subject ID number
  - activityName reperesents the name of activity 
  - Rest of the variables represent mean and standard deviation of each measurement
+
+Notes on variables
+- subjectNum: Int from 1 to 30
+- activityName: Factors with 6 levels; (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)

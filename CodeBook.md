@@ -1,11 +1,11 @@
-Project Description
+### Project Description
  
   The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis
 
-Collection of the raw data
+### Collection of the raw data
   Human Activity Recognition Using Smartphones Dataset was used
 
-Notes on the original (raw) data
+### Notes on the original (raw) data
  - 'README.txt'
 
  - 'features_info.txt': Shows information about the variables used on the feature vector.
@@ -32,19 +32,19 @@ The following files are available for the train and test data. Their description
 
  - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-Creating the tidy datafile
+### Creating the tidy datafile
  - Merges the training and the test sets to create one data set.
  - Extracts only the measurements on the mean and standard deviation for each measurement. 
  - Uses descriptive activity names to name the activities in the data set
  - Appropriately labels the data set with descriptive variable names. 
  - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Description of the variables in the tidydata.txt file
+### Description of the variables in the tidydata.txt file
  - 180 observations of  68 variables
  - subjectNum represents subject ID number
  - activityName reperesents the name of activity 
  - Rest of the variables represent average of each variable for each activity and each subject
 
-Notes on variables
+### Notes on variables
 - subjectNum: Int from 1 to 30
 - activityName: Factors with 6 levels; (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)

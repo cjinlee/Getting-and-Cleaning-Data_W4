@@ -18,3 +18,6 @@ tidydata.txt includes following data.
   2. Descriptive activity names
   
   3. The average of each variable for each activity and each subject.
+  
+
+Further details are included in CodeBook.md

@@ -43,7 +43,7 @@ Description of the variables in the tidydata.txt file
  - 180 observations of  68 variables
  - subjectNum represents subject ID number
  - activityName reperesents the name of activity 
- - Rest of the variables represent mean and standard deviation of each measurement
+ - Rest of the variables represent average of each variable for each activity and each subject
 
 Notes on variables
 - subjectNum: Int from 1 to 30

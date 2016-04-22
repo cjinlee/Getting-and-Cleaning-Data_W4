@@ -16,31 +16,45 @@ For each record it is provided
 run_analysis.R does the following.
 
   1. Merges the training and the test sets to create one data set.
+  
     Read train and test files first, and then merge them to get the data table for all data by using rbind(), cbind()
 
 
-  2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+  2. Extracts only the measurements on the mean and standard deviation for each measurement.
+  
     First, get the sequence of rows whose variable name includes mean or standard deviation by using grep()
+
     Then, extract corresponded rows
 
 
   3. Uses descriptive activity names to name the activities in the data set
+  
     Merge data with activity label which is a primary key by using merge()
 
 
   4. Appropriately labels the data set with descriptive variable names. 
+  
     Followings are plan for descriptive labeling by using gsub()
+
       prefix 't' should be replaced by 'time'
+      
       'Acc' should be replaced by 'Accelerometer'
+      
       'Gyro' should be replaced by 'Gyroscope'
+      
       prefix 'f' should be replaced by 'frequency'
+      
       'Mag' should be replaced by 'Magnitude'
+      
       'BodyBody' should be replaced by 'Body'
 
 
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  
     tidy data set is exported to .txt file by write.table()
+
     'dplyr' package was used
+    
     with aggregate()
 
 
